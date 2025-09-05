@@ -298,7 +298,7 @@ $text-alignments: left, right, start, end, center, justify;
 .greedy-nav__toggle {
   &:before {
     @supports (pointer-events: none) {
-      content: '';
+      content: "";
       position: fixed;
       top: 0;
       inset-inline-start: 0;
@@ -539,7 +539,7 @@ pre {
     transition: color 0.25s linear -0.25s, opacity 0.25s linear;
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       inset: 0;
       z-index: 2;
@@ -571,4 +571,8 @@ pre {
   &:hover .clipboard-copy-button {
     opacity: 1;
   }
+}
+
+.img-width-half {
+  width: 50%;
 }
