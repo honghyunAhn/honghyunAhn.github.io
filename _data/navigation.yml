@@ -3,8 +3,8 @@ main:
   - title: "Search"
     url: /search/
   - title: "Year"
-    url: /year-archive/
-  - title: "Category"
+    #   url: /year-archive/
+    # - title: "Category"
     url: /categories/
   - title: "Tag"
     url: /tags/
